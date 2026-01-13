@@ -51,7 +51,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
   const navItems = [
     { href: '/dashboard', icon: LayoutDashboard, label: t('nav.dashboard') },
     { href: '/projects', icon: FolderKanban, label: t('nav.projects') },
-    { href: '/evaluations', icon: ClipboardCheck, label: t('nav.evaluations') },
+    ...(!isStudent ? [{ href: '/evaluations', icon: ClipboardCheck, label: t('nav.evaluations') }] : []),
   ];
 
   const studentNavItems = [
