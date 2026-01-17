@@ -20,7 +20,7 @@
 
 ## 🎯 Overview
 
-EvalSystem is a bilingual (Hebrew/English) platform designed to streamline the process of evaluating academic projects during conferences and presentations. It provides role-based access for students, judges, and department managers, enabling efficient project submission, evaluation, and grade management.
+This application is a bilingual (Hebrew/English) platform designed to streamline the process of evaluating academic projects during conferences and presentations. It provides role-based access for students, judges, and department managers, enabling efficient project submission, evaluation, and grade management.
 
 ---
 
